@@ -13,6 +13,7 @@
 		B8D1840E1B87684F009AB452 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8D1840D1B87684F009AB452 /* Images.xcassets */; };
 		B8D184111B87684F009AB452 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8D1840F1B87684F009AB452 /* LaunchScreen.xib */; };
 		B8D1841D1B87684F009AB452 /* CalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D1841C1B87684F009AB452 /* CalendarTests.swift */; };
+		B8D184271B8775B1009AB452 /* NSDate+Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D184261B8775B1009AB452 /* NSDate+Calendar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		B8D184161B87684F009AB452 /* CalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8D1841B1B87684F009AB452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8D1841C1B87684F009AB452 /* CalendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTests.swift; sourceTree = "<group>"; };
+		B8D184261B8775B1009AB452 /* NSDate+Calendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Calendar.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				B8D1840D1B87684F009AB452 /* Images.xcassets */,
 				B8D1840F1B87684F009AB452 /* LaunchScreen.xib */,
 				B8D184041B87684F009AB452 /* Supporting Files */,
+				B8D184261B8775B1009AB452 /* NSDate+Calendar.swift */,
 			);
 			path = Calendar;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8D184091B87684F009AB452 /* ViewController.swift in Sources */,
+				B8D184271B8775B1009AB452 /* NSDate+Calendar.swift in Sources */,
 				B8D184071B87684F009AB452 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +345,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Calendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -351,6 +356,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Calendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
